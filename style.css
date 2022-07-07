@@ -1,8 +1,22 @@
+.top, .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.blankPage {
+    padding-left: 175px;
+    flex-shrink: 0;
+}
+
 .container {
     display: flex;
     height: 720px;
     width: 720px;
     flex-wrap: wrap;
+    border: 3px black groove;
+
 }
 .canvas {
    aspect-ratio: 1/1;
@@ -10,4 +24,16 @@
 
 .colored {
     background-color: black;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.clear, .number {
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 10px 10px;
 }
