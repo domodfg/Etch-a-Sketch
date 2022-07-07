@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    height: 720px;
+    width: 720px;
+    flex-wrap: wrap;
+}
+.canvas {
+   aspect-ratio: 1/1;
+}
