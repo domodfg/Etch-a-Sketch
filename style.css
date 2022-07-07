@@ -16,6 +16,7 @@
     width: 720px;
     flex-wrap: wrap;
     border: 3px black groove;
+    box-shadow: 5px 5px 5px;
 
 }
 .canvas {
@@ -36,4 +37,5 @@
     border: 2px black solid;
     border-radius: 5px;
     padding: 10px 10px;
+    box-shadow: 2px 2px 5px;
 }

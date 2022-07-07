@@ -14,4 +14,11 @@ for (let i=0; i<squaredNum; i++) {
   container.appendChild(canvas);
 }
 
-
+const clear = document.querySelector('.clear');
+const allGrid = document.querySelectorAll('.canvas');
+function clearColor() {
+  allGrid.forEach(function(item) {
+  item.classList.remove('colored');
+  });
+}
+clear.addEventListener('click', clearColor)
