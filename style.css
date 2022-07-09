@@ -1,11 +1,12 @@
 body {
-    background-image: url(canvas.jpg);
+    background-image: url(sketch.jpg);
     font-family: "'Arima',Arial";
 }
 
 h1 {
     color: white;
-    font-size: 50px;
+    font-size: 65px;
+    font-weight: 300;
 }
 
 .top, .middle {
